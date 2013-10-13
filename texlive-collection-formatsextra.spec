@@ -1,4 +1,4 @@
-# revision 21879
+# revision 30396
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,9 +6,9 @@
 # catalog-version undef
 Name:		texlive-collection-formatsextra
 Epoch:		1
-Version:	20120224
+Version:	20131013
 Release:	1
-Summary:	Extra formats
+Summary:	Additional formats
 Group:		Publishing
 URL:		http://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
@@ -16,13 +16,13 @@ Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-format
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
+Requires:	texlive-collection-basic
 Requires:	texlive-edmac
 Requires:	texlive-eplain
 Requires:	texlive-mltex
 Requires:	texlive-psizzl
 Requires:	texlive-startex
 Requires:	texlive-texsis
-Requires:	texlive-collection-basic
 
 %description
 Collected TeX `formats', i.e., large-scale macro packages
@@ -39,12 +39,3 @@ ones, such as latex and context.
 %build
 
 %install
-
-
-%changelog
-* Fri Feb 24 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120224-1
-+ Revision: 780311
-- Update to latest release.
-- Import texlive-collection-formatsextra
-- Import texlive-collection-formatsextra
-
