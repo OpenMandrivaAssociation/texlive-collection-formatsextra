@@ -6,8 +6,8 @@
 # catalog-version undef
 Name:		texlive-collection-formatsextra
 Epoch:		1
-Version:	20140621
-Release:	4
+Version:	20170504
+Release:	1
 Summary:	Additional formats
 Group:		Publishing
 URL:		http://tug.org/texlive
