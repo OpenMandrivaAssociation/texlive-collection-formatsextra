@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-formatsextra
 Epoch:		1
-Version:	20170504
+Version:	20180303
 Release:	1
 Summary:	Additional formats
 Group:		Publishing
