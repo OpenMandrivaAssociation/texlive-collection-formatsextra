@@ -1,18 +1,12 @@
-# revision 33658
-# category Collection
-# catalog-ctan undef
-# catalog-date undef
-# catalog-license undef
-# catalog-version undef
 Name:		texlive-collection-formatsextra
 Epoch:		1
-Version:	20190228
+Version:	62226
 Release:	1
 Summary:	Additional formats
 Group:		Publishing
 URL:		http://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-formatsextra.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-formatsextra.r62226.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -36,7 +30,7 @@ package(s).
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0
+%autosetup -p1 -c
 
 %build
 
