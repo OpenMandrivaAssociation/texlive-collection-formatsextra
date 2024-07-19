@@ -1,7 +1,7 @@
 Name:		texlive-collection-formatsextra
 Epoch:		1
-Version:	62226
-Release:	2
+Version:	70875
+Release:	1
 Summary:	Additional formats
 Group:		Publishing
 URL:		http://tug.org/texlive
