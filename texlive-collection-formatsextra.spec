@@ -1,6 +1,6 @@
 Name:		texlive-collection-formatsextra
 Epoch:		1
-Version:	70875
+Version:	72250
 Release:	1
 Summary:	Additional formats
 Group:		Publishing
