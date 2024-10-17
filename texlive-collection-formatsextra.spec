@@ -4,7 +4,7 @@ Version:	72250
 Release:	1
 Summary:	Additional formats
 Group:		Publishing
-URL:		http://tug.org/texlive
+URL:		https://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-formatsextra.r%{version}.tar.xz
 BuildArch:	noarch
